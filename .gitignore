@@ -1,0 +1,26 @@
+# Compiled binaries
+*.o
+*.exe
+cnn
+main
+
+# MNIST data files (too large for git)
+*.idx3-ubyte
+*.idx1-ubyte
+*.gz
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Build directories
+build/
+bin/
+obj/
