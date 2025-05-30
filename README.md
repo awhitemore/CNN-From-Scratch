@@ -152,7 +152,7 @@ cnn-from-scratch/
 ## 🔄 Architecture Decisions
 
 ### **Why C++ Over Python?**
-- **Understanding**: Creating this CNN without the aid of standard ML libraies allowed me to learn the underworkings of this project
+- **Understanding**: Building this CNN from scratch, without relying on standard machine learning libraries in C++ or Python, gave me a deep understanding of the fundamentals behind CNNs. Implementing core functionality myself reinforced key concepts and significantly strengthened my grasp of how CNNs work under the hood.
 
 ### **Why This Architecture?**
 - **Simplicity**: Focuses on core CNN concepts without unnecessary complexity
@@ -184,8 +184,6 @@ This foundation enables more effective debugging, optimization, and architecture
 While the current implementation achieves its educational and performance goals, potential extensions include:
 
 - **Additional Layers**: Batch normalization, dropout, additional conv layers
-- **Advanced Optimizers**: Adam, RMSprop with momentum
-- **GPU Acceleration**: CUDA implementation for large-scale training
 - **Model Persistence**: Save/load trained models for deployment
 - **Data Augmentation**: Rotation, scaling, noise injection for improved generalization
 
